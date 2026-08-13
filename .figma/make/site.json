@@ -1,0 +1,11 @@
+{
+  "title": "matrix.payment",
+  "description": "Manage crypto payments with a secure, dark-themed dashboard offering transaction tracking, payment creation, top-ups, refunds, and advanced settings.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
