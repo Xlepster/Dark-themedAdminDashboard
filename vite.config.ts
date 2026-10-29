@@ -1,15 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
-import path from 'node:path'
+import path from 'path'
 
-// Vite config — https://vitejs.dev/config/
+// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/',
-  build: {
-    sourcemap: false,
-    minify: true,
-  },
+  base: '/Dark-themedAdminDashboard/',
   plugins: [
     react(),
     tailwindcss(),
@@ -18,6 +14,10 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
+  },
+  build: {
+    sourcemap: false,
+    minify: true,
   },
   server: {
     host: '0.0.0.0',
